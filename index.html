@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>LABITY</title>
+      <link rel="icon" type="image/x-icon" href="./Imagenes/favicon.png">
+      <script src="https://cdn.tailwindcss.com"></script>
+      <link rel="stylesheet" href="style.css">  
+  </head>
+
+  <body class="overflow-x-hidden pb-20" id="fondobody">
+
+    <div class="flex items-center justify-center grid-cols-12">
+      <button>
+        <a href="index.html"><img class="h-20 m-5 t-5" src="./Imagenes/labity.png" alt="menu"></a> 
+      </button>
+    </div>
+
+    <div id="menuEsquina">
+      <div id="menu-bar" onclick="menuOnClick()">
+        <div id="bar1" class="bar"></div>
+        <div id="bar2" class="bar"></div>
+        <div id="bar3" class="bar"></div>
+      </div>
+      <nav class="nav text-black" id="nav">
+        <ul>
+          <li><a href="index.html">Main</a></li>
+          <li><a href="#">Catalogo</a></li>
+          <li><a href="https://maps.app.goo.gl/3oDFxXNnchk4udDW8" target="_blank">Ubicacion</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </nav> 
+    </div>
+    
+    <div class="menu-bg" id="menu-bg"></div>
+
+    <div>
+      <h2 class="text-white mb-5 mt-10">
+          Artistas
+      </h2>
+      <hr class="mb-5">
+    </div>
+
+    <div class="flex items-end mt-5 mb-20">    
+        <div id="carousel-wrapper">
+            <div id="menu">
+                <div id="current-option">
+                  <span id="current-option-text1" data-previous-text="" data-next-text=""></span>
+                  <span id="current-option-text2" data-previous-text="" data-next-text=""></span>
+                </div>
+                <button id="previous-option"></button>
+                <button id="next-option"></button>
+            </div>
+            <div id="image"></div>
+          </div>
+    </div>
+
+    <div>
+      <h2 class="text-white mb-5">
+          Galeria
+      </h2>
+      
+      <hr class="mb-5">
+
+    </div>
+      
+    <div class="h-4/5 w-full">
+      <div class="mb-1 mt-5" id="slider">
+        <div id="slide-track" class="infinite-carousel">
+          <div><img src="./Imagenes/estudio1.jpg" alt="imagen 1" class="carousel-image" id="imagen"></div>
+          <div><img src="./Imagenes/estudio2.jpg" alt="imagen 2" class="carousel-image" id="imagen"></div>
+          <div><img src="./Imagenes/estudio3.jpg" alt="imagen 3" class="carousel-image" id="imagen"></div>
+          <div><img src="./Imagenes/estudio1.jpg" alt="imagen 1" class="carousel-image" id="imagen"></div>
+          <div><img src="./Imagenes/estudio2.jpg" alt="imagen 2" class="carousel-image" id="imagen"></div>
+          <div><img src="./Imagenes/estudio3.jpg" alt="imagen 3" class="carousel-image" id="imagen"></div>
+          <div><img src="./Imagenes/estudio1.jpg" alt="imagen 1" class="carousel-image" id="imagen"></div>
+          <div><img src="./Imagenes/estudio2.jpg" alt="imagen 2" class="carousel-image" id="imagen"></div>
+          <div><img src="./Imagenes/estudio3.jpg" alt="imagen 3" class="carousel-image" id="imagen"></div>
+          <div><img src="./Imagenes/estudio1.jpg" alt="imagen 1" class="carousel-image" id="imagen"></div>
+          <div><img src="./Imagenes/estudio2.jpg" alt="imagen 2" class="carousel-image" id="imagen"></div>
+          <div><img src="./Imagenes/estudio3.jpg" alt="imagen 3" class="carousel-image" id="imagen"></div>
+          <div><img src="./Imagenes/estudio1.jpg" alt="imagen 1" class="carousel-image" id="imagen"></div>
+          <div><img src="./Imagenes/estudio2.jpg" alt="imagen 2" class="carousel-image" id="imagen"></div>
+          <div><img src="./Imagenes/estudio3.jpg" alt="imagen 3" class="carousel-image" id="imagen"></div>
+          <div><img src="./Imagenes/estudio1.jpg" alt="imagen 1" class="carousel-image" id="imagen"></div>
+          <div><img src="./Imagenes/estudio2.jpg" alt="imagen 2" class="carousel-image" id="imagen"></div>
+          <div><img src="./Imagenes/estudio3.jpg" alt="imagen 3" class="carousel-image" id="imagen"></div>
+          <div><img src="./Imagenes/estudio1.jpg" alt="imagen 1" class="carousel-image" id="imagen"></div>
+          <div><img src="./Imagenes/estudio2.jpg" alt="imagen 2" class="carousel-image" id="imagen"></div>
+          <div><img src="./Imagenes/estudio3.jpg" alt="imagen 3" class="carousel-image" id="imagen"></div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>   

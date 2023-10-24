@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>LABITY</title>
+        <link rel="icon" type="image/x-icon" href="./Imagenes/favicon.png">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body class="overflow-x-hidden pb-20" id="fondobody">
+
+        <div id="menuEsquina">
+            <div id="menu-bar" onclick="menuOnClick()">
+              <div id="bar1" class="bar"></div>
+              <div id="bar2" class="bar"></div>
+              <div id="bar3" class="bar"></div>
+            </div>
+            <nav class="nav text-black" id="nav">
+              <ul>
+                <li><a href="index.html">Main</a></li>
+                <li><a href="#">Catalogo</a></li>
+                <li><a href="https://maps.app.goo.gl/3oDFxXNnchk4udDW8" target="_blank">Ubicacion</a></li>
+                <li><a href="#">Contacto</a></li>
+              </ul>
+            </nav> 
+          </div>
+          
+          <div class="menu-bg" id="menu-bg"></div>
+
+        <div class="flex items-center justify-center grid-cols-12">
+            <button>
+            <a href="index.html"><img class="h-20 m-5 t-5" src="./Imagenes/labity.png" alt="menu"></a> 
+            </button>
+        </div>
+
+        <div class=" flex justify-center grid grid-cols-2 h-2/5">
+            <div class="card mx-auto">
+                <div class="circle"></div>
+                
+                <div class="card-inner p-2 ">
+                    <div class="p-5 justify-center h-3/4">
+                        <img src="./Imagenes/ciscomood.jpg" alt="" id="perfilImg">
+                    </div>
+                    <div>
+                        <p class="text-white justify-center w-full mb-5 w-30" id="textCard">CiscoMood</p>
+                    </div>
+                    <div class="w-full my-super-cool-btn">
+                        <div class=" grid-item" id="wrapper">
+                            <a href="https://soundcloud.com/cisco-mood" target="_blank">
+                            <div class="dots-container">
+                                <div class="dot"></div>
+                                <div class="dot"></div>
+                                <div class="dot"></div>
+                                <div class="dot"></div>
+                            </div>
+                            <span><img src="./Imagenes/soundcloud.png" alt="Soundcloud"></span>
+                            </a>
+                        </div>
+                        <div class="grid-item" id="wrapper">
+                            <a href="https://www.youtube.com/@CiscoMood" target="_blank">
+                            <div class="dots-container">
+                                <div class="dot"></div>
+                                <div class="dot"></div>
+                                <div class="dot"></div>
+                                <div class="dot"></div>
+                            </div>
+                            <span><img src="./Imagenes/youtube.png" alt="Youtube"></span>
+                            </a>
+                        </div>
+                        <div class="grid-item" id="wrapper">
+                            <a href="https://music.apple.com/co/artist/cisco-mood/1585386583" target="_blank">
+                            <div class="dots-container">
+                                <div class="dot"></div>
+                                <div class="dot"></div>
+                                <div class="dot"></div>
+                                <div class="dot"></div>
+                            </div>
+                            <span><img src="./Imagenes/itunes.png" alt="Apple Music"></span>
+                            </a>
+                        </div>
+                        <div class="grid-item" id="spotify">
+                            <a href="https://open.spotify.com/intl-es/artist/3Cgi5cFY41EGDU6gi0ggNJ?si=nW3jtOlCTK6QlyECzx9okg" target="_blank">
+                            <div class="dots-container">
+                                <div class="dot"></div>
+                                <div class="dot"></div>
+                                <div class="dot"></div>
+                                <div class="dot"></div>
+                            </div>
+                            <span><img src="./Imagenes/spotify.png" alt="Spotify"></span>
+                            </a>
+                        </div>
+                        <div class="grid-item" id="wrapper">
+                            <a href="https://www.facebook.com/pacho1245" target="_blank">
+                            <div class="dots-container">
+                                <div class="dot"></div>
+                                <div class="dot"></div>
+                                <div class="dot"></div>
+                                <div class="dot"></div>
+                            </div>
+                            <span><img src="./Imagenes/facebook.png" alt="Facebook"></span>
+                            </a>
+                        </div>
+                        <div class="grid-item" id="wrapper">
+                            <a href="https://instagram.com/ciscomood?igshid=MzRlODBiNWFlZA==" target="_blank">
+                            <div class="dots-container">
+                                <div class="dot"></div>
+                                <div class="dot"></div>
+                                <div class="dot"></div>
+                                <div class="dot"></div>
+                            </div>
+                            <span><img src="./Imagenes/instagram.png" alt="Instagram"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/3Cgi5cFY41EGDU6gi0ggNJ?utm_source=generator" 
+                width="100%" height="100%" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                 loading="lazy"></iframe>
+            </div>
+        </div>
+    </body>   
+<script src="index.js"></script>
+</html>
