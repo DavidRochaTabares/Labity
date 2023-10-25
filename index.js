@@ -12,10 +12,10 @@ const text1_options = [
   ];
   const color_options = ["#6E675F", "#F35B04", "#FDE74C", "#F35B04"];
   const image_options = [
-    "imagenes/Krooper.jpg",
-    "imagenes/kingflight.jpg",
-    "imagenes/ciscomood.jpg",
-    "imagenes/mcqueen.jpg"
+    "Imagenes/Krooper.jpg",
+    "Imagenes/kingflight.jpg",
+    "Imagenes/ciscomood.jpg",
+    "Imagenes/mcqueen.jpg"
   ];
   var i = 0;
   const currentOptionText1 = document.getElementById("current-option-text1");
